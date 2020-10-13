@@ -1,0 +1,76 @@
+.title {
+    padding: 0px 3px 6px 0;
+    color: #dedede;
+    font-size: 3rem;
+    font-family: sans-serif;
+    float: left;
+}
+
+.title h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.e-search h5 {
+    padding: 0;
+    margin: 0;
+    background: #963def75;
+    color: #ccf321;
+}
+
+.e-search {
+    text-align: center;
+}
+
+.e-search h2 {
+    padding: 2px 38px 4px 38px;
+    margin: 0;
+    color: #f93779;
+    background: #ddf7bfb3;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #e6e6e663;
+    font-family: cursive;
+}
+
+.button-search {
+    height: 32px;
+    font-size: 1rem;
+    background: #2b2b2bb8;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.search-text {
+    height: 18px;
+    width: 18rem;
+    border-radius: 9px;
+    font-size: 1rem;
+    padding: 7px;
+}
+
+.head-e {
+    height: 8rem;
+}
+
+.main-cart {
+    height: 3rem;
+    position: fixed;
+    width: 100%;
+}
+
+.main-cart img {
+    float: right;
+    height: 3rem;
+}
+
+.header {
+    background-image: url(../../../assets/img/dark-back.png);
+    height: 7rem;
+    background-size: auto;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #6affd6;
+}

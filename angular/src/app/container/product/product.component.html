@@ -1,0 +1,29 @@
+<div class="e-body">
+    <div class="head-e">
+    </div>
+    <section id="product">
+        <div class="view" *ngFor="let p of products" (click)="showThumbnail(p)">
+            <div *ngIf="!p.showThumb">
+                <div class="mask flex-center rgba-blue-light">
+                    <p class="white-text">{{p.name}}</p>
+                </div>
+                <div class="view-img" [ngStyle]="{'background-image': 'url('+p.hero.href+')'}">
+                </div>
+                <div class="price-container">
+                    <p class="selling-price">{{getPriceSelling(p)}}</p>
+                    <p class="regular-price">{{getPriceRegular(p)}}</p><span class="rating">{{getReviews(p)}}</span>
+                </div>
+            </div>
+            <div *ngIf="p.showThumb" class="view thumb-nail" [ngStyle]="{'background-image': 'url('+getImage(p)+')'}">
+                <span>
+          <div class="left" (click)="prev(p,$event)"></div>
+          <div class="right" (click)="next(p,$event)"></div>
+          <span class="close-control" (click)="closeThumbnail($event,p)"></span>
+                </span>
+                <div class="carousel-container">
+                    <span *ngFor="let c of p.images;let i=index" class="carousel" [ngClass]="[i === p.step ? 'select' : '']"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
