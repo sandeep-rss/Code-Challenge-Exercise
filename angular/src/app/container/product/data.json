@@ -38,7 +38,33 @@
           "href": "https://assets.weimgs.com/weimgs/rk/images/wcm/products/202041/0172/ceramic-taper-holder-white-m.jpg",
           "height": 363
         },
-        "images": [],
+        "images": [{
+          "size": "m",
+          "meta": "",
+          "alt": "",
+          "rel": "althero",
+          "width": 363,
+          "href": "https://assets.weimgs.com/weimgs/rk/images/wcm/products/202040/0883/ceramic-taper-holder-earth-m.jpg",
+          "height": 363
+        },
+         {
+          "size": "m",
+          "meta": "",
+          "alt": "",
+          "rel": "althero",
+          "width": 363,
+          "href": "https://assets.weimgs.com/weimgs/rk/images/wcm/products/202041/0172/frog-vase-m.jpg",
+          "height": 363
+        },
+        {
+          "size": "m",
+          "meta": "",
+          "alt": "",
+          "rel": "althero",
+          "width": 363,
+          "href": "https://assets.weimgs.com/weimgs/rk/images/wcm/products/202040/0883/ceramic-taper-holder-earth-m.jpg",
+          "height": 363
+        }],
         "swatches": [],
         "messages": [],
         "flags": [

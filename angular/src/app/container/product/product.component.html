@@ -16,9 +16,9 @@
             </div>
             <div *ngIf="p.showThumb" class="view thumb-nail" [ngStyle]="{'background-image': 'url('+getImage(p)+')'}">
                 <span>
-          <div class="left" (click)="prev(p,$event)"></div>
-          <div class="right" (click)="next(p,$event)"></div>
-          <span class="close-control" (click)="closeThumbnail($event,p)"></span>
+        <div class="left" (click)="prev(p,$event)"></div>
+        <div class="right" (click)="next(p,$event)"></div>
+        <span class="close-control" (click)="closeThumbnail($event,p)"></span>
                 </span>
                 <div class="carousel-container">
                     <span *ngFor="let c of p.images;let i=index" class="carousel" [ngClass]="[i === p.step ? 'select' : '']"></span>

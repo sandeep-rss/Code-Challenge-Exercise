@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 
@@ -17,7 +17,12 @@ import { ProductComponent } from './container/product/product.component';
     BrowserModule,
     FormsModule
   ],
+  exports:[ 
+    HeaderComponent,
+    ProductComponent
+  ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }
